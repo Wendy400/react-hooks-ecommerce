@@ -71,7 +71,7 @@ import React, { useState } from "react";
 function ItemForm({onAddItem}) {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("Produce");
-  const [items, setItems] = useState("Produce")
+ 
  
   function handleSubmit(event) {
     event.preventDefault();
